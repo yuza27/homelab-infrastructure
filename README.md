@@ -71,6 +71,16 @@ The entire virtualized infrastructure is hosted on a low-power Mini PC running t
 * ⚡ **Resource Efficiency:** Fully tuned to run complex observability and routing services smoothly on a 4-core AMD SOC.
 * 📊 **Full Observability:** Complete insight into system resource usage, network traffic, and logs via Grafana.
 
+### 📊 Live Monitoring Dashboard (Grafana Snapshot)
+
+You can view an interactive, real-time snapshot of the Proxmox host and system metrics here:
+
+🔗 **[View Live Grafana Dashboard Snapshot](https://snapshots.raintank.io/dashboard/snapshot/gZCaJw8GCFdQ6JnugtlDQDpmeeJ44kSG?orgId=0&from=2026-08-09T22:11:41.032Z&to=2026-08-10T04:11:41.032Z&timezone=browser&var-instance=192.168.0.27&refresh=10s)**
+
+* **Prometheus:** Collects node-level metrics (`prometheus-pve-exporter`) and LXC telemetry.
+* **Loki:** Aggregates centralized logs across virtualized instances.
+* **Grafana:** Provides unified dashboards for real-time visualization.
+
 ## 📦 Deployment Methodology
 
 To achieve maximum resource efficiency on low-power hardware, services are deployed as **isolated, lightweight LXC (Linux Containers)** using Proxmox Helper-Scripts:
