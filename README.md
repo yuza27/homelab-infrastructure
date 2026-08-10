@@ -6,7 +6,7 @@ An end-to-end, highly secure, and resource-optimized home lab architecture runni
 
 ## 📐 Network Topology
 
-![Home Lab Topology Diagram](docs/homelable-canvas_2.jpg)
+![Home Lab Topology Diagram](docs/homelable-canvas.png)
 
 ---
 
