@@ -70,3 +70,11 @@ The entire virtualized infrastructure is hosted on a low-power Mini PC running t
 * 🔒 **Encrypted DNS (DoH):** Protects LAN traffic from ISP-level DNS hijacking and snooping.
 * ⚡ **Resource Efficiency:** Fully tuned to run complex observability and routing services smoothly on a 4-core AMD SOC.
 * 📊 **Full Observability:** Complete insight into system resource usage, network traffic, and logs via Grafana.
+
+## 📦 Deployment Methodology
+
+To achieve maximum resource efficiency on low-power hardware, services are deployed as **isolated, lightweight LXC (Linux Containers)** using Proxmox Helper-Scripts:
+
+* **Resource Efficiency:** Near-zero virtualization overhead compared to traditional VMs.
+* **Security Isolation:** Services run in unprivileged LXC containers to minimize host exposure.
+* **Modular Management:** Easy independent backups, snapshots, and resource allocation per service.
