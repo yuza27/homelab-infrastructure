@@ -88,3 +88,17 @@ To achieve maximum resource efficiency on low-power hardware, services are deplo
 * **Resource Efficiency:** Near-zero virtualization overhead compared to traditional VMs.
 * **Security Isolation:** Services run in unprivileged LXC containers to minimize host exposure.
 * **Modular Management:** Easy independent backups, snapshots, and resource allocation per service.
+
+## 🛡️ Dual-Layer DNS Metrics & Analytics
+
+To validate network security, latency optimization, and filtering efficiency, real-time metrics are tracked across both DNS layers:
+
+### 1. AdGuard Home (Gateway & Filtering Layer)
+Handles client-facing queries with network-wide tracker/ad filtering, achieving a response latency of **~7 ms**.
+
+![AdGuard Home Dashboard](docs/adguard.png)
+
+### 2. Technitium DNS (Authoritative & Recursive Resolver)
+Manages internal local DNS rewrites (`*.yuzuchan.my.id`), recursive lookups, and upstream query resolution.
+
+![Technitium DNS Dashboard](docs/technitiumdns.png)
