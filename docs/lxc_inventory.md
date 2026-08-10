@@ -7,7 +7,7 @@ Overview of all active lightweight LXC containers running on the `yuzuchan` Prox
 | `100` | `Cloudflare` | Zero-Trust Ingress | Cloudflare Tunnel client daemon (`cloudflared`) | 🟢 Running |
 | `101` | `adguard` | Network Security & Filtering | AdGuard Home DNS server (Ad-blocking, DoH, LAN Gateway) | 🟢 Running |
 | `102` | `grafana` | Monitoring Visualization | Grafana Dashboard for system telemetry & logs | 🟢 Running |
-| `105` | `homelable` | Web Portal / Dashboard | Internal homelab dashboard / landing page | 🟢 Running |
+| `105` | `homelable` | Topology Canvas Engine | Self-hosted web app (React Flow) to render interactive topology diagrams | 🟢 Running |
 | `106` | `Docker` | Containerized App Host | Docker runtime environment hosting image compression tools | 🟢 Running |
 | `107` | `bentopdf` | Self-Hosted Application | BentoPDF / PDF manipulation suite | 🟢 Running |
 | `108` | `linkding` | Self-Hosted Application | Linkding bookmark & link tag manager | 🟢 Running |
